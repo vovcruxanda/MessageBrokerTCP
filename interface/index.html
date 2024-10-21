@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Library</h1>
+    
+    <!-- Text above the banner -->
+    
+
+    <div id="bannerimage">
+        <p id="banner-text">Welcome to the Library! Discover new books and connect with others.</p>
+    </div>
+
+    <!-- Broker Control -->
+    <div class="broker-control">
+        <button id="start-broker-btn">Start Broker</button>
+        <div class="note-card">
+            <p class="note-text">
+                <b>Please note</b>: The application is not functional until the broker is started.
+            </p>
+        </div>
+    </div>
+
+    <!-- Publisher Section -->
+    <div class="publisher-section">
+      <h2>Publisher</h2>
+
+      <!-- Select Topic -->
+      <div class="input-group">
+        <label for="select-topic-publisher">Select Topic:</label>
+        <select id="select-topic-publisher">
+          <option value="" disabled selected>Select a genre</option>
+          <option value="fiction">Fiction</option>
+          <option value="non-fiction">Non-Fiction</option>
+          <option value="mystery">Mystery</option>
+          <option value="fantasy">Fantasy</option>
+          <option value="science-fiction">Science Fiction</option>
+          <option value="biography">Biography</option>
+          <option value="self-help">Self-Help</option>
+          <option value="romance">Romance</option>
+          <option value="horror">Horror</option>
+          <option value="thriller">Thriller</option>
+        </select>
+      </div>
+
+      <!-- Format Selection -->
+      <div class="input-group">
+        <label>Select Format:</label>
+        <label><input type="radio" name="format" value="json" checked> JSON</label>
+        <label><input type="radio" name="format" value="xml"> XML</label>
+      </div>
+
+      <!-- Send Message -->
+      <div class="input-group">
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Type your message here"></textarea>
+        <button id="send-message-btn">Send Message</button>
+      </div>
+    </div>
+
+    <!-- Subscriber Section -->
+    <div class="subscribers-container">
+        <!-- Initial Subscriber Section -->
+        <div class="subscriber-section">
+          <h2>Subscriber</h2>
+          <!-- Select Topic -->
+          <div class="input-group">
+            <label for="select-topic">Subscribe to Topic:</label>
+            <select id="select-topic-publisher">
+                <option value="" disabled selected>Select a genre</option>
+                <option value="fiction">Fiction</option>
+                <option value="non-fiction">Non-Fiction</option>
+                <option value="mystery">Mystery</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="science-fiction">Science Fiction</option>
+                <option value="biography">Biography</option>
+                <option value="self-help">Self-Help</option>
+                <option value="romance">Romance</option>
+                <option value="horror">Horror</option>
+                <option value="thriller">Thriller</option>
+              </select>
+          </div>
+          <div class="output-box" id="output-box">
+            <!-- Messages from topics will appear here -->
+          </div>
+          <div class="input-group">
+            <button id="new-subscriber-btn">Add New Subscriber</button>
+          </div>
+        </div>
+    </div>    
+
+  <script src="script.js"></script>
+</body>
+</html>

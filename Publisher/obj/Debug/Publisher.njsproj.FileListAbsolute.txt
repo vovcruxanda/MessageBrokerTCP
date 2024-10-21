@@ -1,0 +1,6 @@
+C:\Users\danax\OneDrive\Desktop\Publisher\obj\Debug\Publisher.njsproj.AssemblyReference.cache
+C:\Users\danax\OneDrive\Desktop\Publisher\obj\Debug\Publisher.njsproj.CoreCompileInputs.cache
+C:\Users\danax\OneDrive\Desktop\Publisher\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\danax\OneDrive\Desktop\Modificat_in_diferit\Publisher\obj\Debug\Publisher.njsproj.AssemblyReference.cache
+C:\Users\danax\OneDrive\Desktop\Modificat_in_diferit\Publisher\obj\Debug\Publisher.njsproj.CoreCompileInputs.cache
+C:\Users\danax\OneDrive\Desktop\Modificat_in_diferit\Publisher\bin\Microsoft.NodejsTools.WebRole.dll
